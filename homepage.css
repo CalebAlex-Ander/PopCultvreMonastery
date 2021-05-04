@@ -1,0 +1,86 @@
+
+header{background-image:url(ancient.jpg);
+    font-family: "Cinzel";
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;}
+
+#imgDisplay{width: 20%;
+        height: 10%;
+        object-fit: contain;
+        margin: 2px;
+        }
+
+body{font-family: "Cinzel";
+    background-color: #1c2020}
+
+#container{ width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #aeb7b3;
+            /* Note, this once held "height: 100%." This messed up my page for some reason. */
+}
+
+nav{width: 100%;
+    padding: 5px;
+    text-align: center;}
+
+#popCult{background-image:url(collage.jpg);
+        height: 300px;
+        width: auto;
+        object-fit: fill;}
+
+li{list-style-type: none;
+    width: auto;
+    padding: 10px;
+    margin: 15px;
+    border: solid;
+    display: inline;
+    font-family: "Cinzel";
+    font-weight: bold;}
+
+a:link{color: black;
+  text-decoration: none;}
+
+a:hover{color: #259fa5;
+    background-color: khaki;
+    text-decoration: none;}
+
+li:hover {
+    background-color: khaki;
+} /* this was added; lmk what we think.*/
+
+a:visited{color: red;}
+
+main{background-color: #1c2020;
+    color: beige;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+h2{font-family: "Cinzel";
+    margin: 7px;}
+
+h1{font-family: "Cinzel";
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;}
+
+h3 {/*added*/
+    color: black;
+    font-family: "Cinzel";
+    margin: 0;
+}
+
+article{padding: 15px;
+    margin-left: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+#mainImg{padding: 5px;
+    width: 30%;
+    float: left;
+    height: auto;}
+
+#mainImg2{padding: 5px;
+    width: 30%;
+    float: right;
+    height: auto}
