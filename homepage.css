@@ -1,5 +1,5 @@
 
-header{background-image:url(ancient.jpg);
+header{background-image:url(images/ancient.jpg);
     font-family: "Cinzel";
     font-size: xx-large;
     text-align: center;
@@ -14,7 +14,7 @@ header{background-image:url(ancient.jpg);
         }
 
 body{font-family: "Cinzel";
-    background-image: url("bck.png");}
+    background-image: url("images/bck.png");}
 
 #container{ width: auto;
             margin-left: auto;
@@ -60,7 +60,7 @@ li:hover {
 
 a:visited{color: #28112B;}
 
-main{background-image: url("bck.png");
+main{background-image: url("images/bck.png");
     color: beige;
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
@@ -94,3 +94,11 @@ article{padding: 15px;
     width: 30%;
     float: right;
     height: auto;}
+
+footer {
+    background-color: rgb(222, 142, 73, .5);
+    text-align: right;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
