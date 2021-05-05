@@ -46,7 +46,7 @@ a:link{color: black;
 
 a:hover{color: #259fa5;
     text-decoration: none;
-    background-color: red;}
+    }
 
 li:hover a {
     background-color: transparent;
