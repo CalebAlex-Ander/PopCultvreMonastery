@@ -7,7 +7,7 @@
         <link href="homepage.css" rel="stylesheet">
         <link rel="shortcut icon" href="images/nyan.gif">
         <style>
-        figure { width: 20%; 
+        figure {width: 20%; 
                 padding: 5px;
                 display: inline-block;
                 border: 1px solid beige;}
@@ -23,7 +23,12 @@
         #merchImg{width: 100%;
                 padding: 1px;
                 display: inline;
-                object-fit: fill;}
+                object-fit: contain;}
+
+        #wrapper{width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                }
         </style>
     </head>
     <body> 
@@ -42,7 +47,7 @@
             </ul>
         </nav>
         </div><br>
-        <main>
+        <main id="wrapper">
             <h1>Pop Cultvre Monastery Merchandise</h1>
             <figure>
                 <img id="merchImg" src="images/merch1.JPEG" alt="A black graphic T-shirt" >
